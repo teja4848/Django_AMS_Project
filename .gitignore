@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.mo
+*.env
+*.DS_Store
+
+# Virtual Environment
+venv/
+env/
+
+# Ignore local settings and credentials
+local_settings.py
+settings.py
+
+# Ignore static and media files
+/static/
+/media/
+
+# Ignore database files
+*.sqlite3
+
+# MySQL password
+*.my.cnf
+
+# Ignore migrations
+**/migrations/
